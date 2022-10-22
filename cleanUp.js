@@ -8,11 +8,12 @@
 
 
 // // EX 1:
-// function askName() {
-//   console.log("Hello, what is your name?")
-// }
 
-// nameQuestion()
+function askName() {
+  console.log("Hello, what is your name?")
+}
+
+nameQuestion()
 
 // I changed the function name to askName instead of nameQuestion.
 // Conventional JS function names start with a verb, and the function name "askName"
@@ -23,18 +24,18 @@
 
 // EX 2:
 
-// function addThreeNums(num1, num2, num3) {
-// var sum = num1 + num2 + num3
-// return sum;
-//       }
+function addThreeNums(num1, num2, num3) {
+var sum = num1 + num2 + num3
+return sum;
+      }
 
-// var cupsOfFlour = 1
-// var cupsOfSugar = 2
-// var cupsOfMilk = 3
+var cupsOfFlour = 1
+var cupsOfSugar = 2
+var cupsOfMilk = 3
 
-// var totalCups = addThreeNums(cupsOfFlour, cupsOfSugar, cupsOfMilk)
+var totalCups = addThreeNums(cupsOfFlour, cupsOfSugar, cupsOfMilk)
 
-// console.log(`This recipe has ${totalCups} cups of ingredients total.`)
+console.log(`This recipe has ${totalCups} cups of ingredients total.`)
 
 // First, I changed the parameters from "first, second, third" to "num1, num2, num3"
 // I'm not sure if this is necessary, but for me it made much more sense to label them this way because the order
@@ -78,18 +79,18 @@ function listRecipe(_first, _second, _third, _fourth, _fifth){
 
 // //  EX 4:
 
-// function avgOfTwoNums(num1, num2) 
-//   {
-// var sum = num1 + num2;
-//     var avg = sum / 2;
-//     return avg
-//   }
+function avgOfTwoNums(num1, num2) 
+  {
+var sum = num1 + num2;
+    var avg = sum / 2;
+    return avg
+  }
 
-//   var ageOne = 27
-//   var ageTwo = 15
-//   var avgAge = avgOfTwoNums(ageOne, ageTwo)
+  var ageOne = 27
+  var ageTwo = 15
+  var avgAge = avgOfTwoNums(ageOne, ageTwo)
 
-//   console.log(`The average age is ${avgAge}`)
+  console.log(`The average age is ${avgAge}`)
 
 
 // First, I changed the function name from "average" to "avgOfTwoNums." 
